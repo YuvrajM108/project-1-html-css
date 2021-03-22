@@ -1,0 +1,54 @@
+/*Navigation bar*/
+
+/*Searchfield and button position*/
+
+/*Searchfield size*/
+
+/*Buttons*/
+
+/*Logo*/
+
+/*Subscribe and log in buttons*/
+
+/*Article headline*/
+
+.navbar {
+  display: flex;
+}
+
+form.search {
+  float: left;
+}
+
+input {
+  height: 26px;
+}
+
+button {
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: rgb(86, 123, 149);
+  border-color: rgb(50, 104, 145);
+  color: white;
+  height: 30px;
+}
+
+.logo {
+  text-align: center;
+  margin-left: 25%;
+}
+
+button.option {
+  display: inline;
+}
+
+.options {
+  float: right;
+  margin-left: 30%;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 20%;
+}
