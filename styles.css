@@ -1,7 +1,8 @@
-nav {
+nav.head {
   display: flex;
   justify-content: space-between;
   width: 98vw;
+  background-color: white;
 }
 
 form.search {
@@ -28,7 +29,7 @@ button.option {
 
 img.logo{
   width:200px;
-  height=40px;
+  height:40px;
 }
 
 section.photo {
@@ -59,7 +60,7 @@ p.article {
   font-family: 'Times New Roman', Times, serif;
 }
 
-p.imgctext {
+.imgctext {
   color: rgb(102, 102, 102);
 }
 
@@ -68,14 +69,24 @@ p.reporterinfo {
   font-size: 13px;
 }
 
-section.text {
+section.text1 {
   display: flex;
-  justify-content: center;
+  position: relative;
+  left: 20vw;
+  width: 75vw;
+  justify-content: space-between;
+}
+
+section.text2 {
+  display: flex;
+  position: relative;
+  left: 20vw;
+  width: 75vw;
+  justify-content: flex-start;
 }
 
 article.passage {
   width: 50vw;
-  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,11 +177,13 @@ p.picks {
 figure.pick {
   display: flex;
   justify-content: flex-start;
+  width: 15vw;
 }
 
 img.pickImg {
   width:60px; 
   height:60px;
+  margin-right: 5px;
 }
 
 a.picklink {
@@ -183,7 +196,84 @@ a.picklink:hover {
   text-decoration: underline;
 }
 
-footer.additionalinfo {
+figure.theory {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 10vw;
+  width: 70vw;
+}
+
+figcaption.theoryCapt {
+  align-self: flex-start;
+  word-wrap: break-word;
+}
+
+img.theoryImgs {
+  width: 945px;
+  height: 576px;
+}
+
+section.explanations1 {
+  position: absolute;
+  top: 180px;
+}
+
+section.explanations2 {
+  position: absolute;
+  bottom: 15px;
+}
+
+figcaption.explained {
+  font-size: 13px;
+  float: left;
+  width: 225px;
+  word-wrap: break-word;
+}
+
+section.researchers {
+  position: absolute;
+  bottom: -15px;
+  left: 25px;
+}
+
+figcaption.vidcaption {
+  
+  align-self: flex-start;
+  width: 600px;
+  word-wrap: break-word;
+}
+
+img.telescopeImg {
+  width: 600px;
+  height: 400px;
+}
+
+figcaption.telescopeCapt {
+  width: 600px;
+  word-wrap: break-word;
+}
+
+.additionalinfo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav.foot {
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+a.addlink {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+}
+
+a.addlink:hover {
+  text-decoration: underline;
 }
