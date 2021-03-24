@@ -5,7 +5,7 @@ nav {
 }
 
 form.search {
-   justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 input {
@@ -26,6 +26,11 @@ button.option {
   display: inline;
 }
 
+img.logo{
+  width:200px;
+  height=40px;
+}
+
 section.photo {
   display: flex;
   flex-direction: column;
@@ -37,6 +42,11 @@ h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.95rem;
   word-wrap: break-word;
+}
+
+img.articleImg{
+  width:945px; 
+  height:530px;
 }
 
 figcaption.imgcaption {
@@ -113,8 +123,7 @@ a.newsletter {
   color: black;
   text-decoration: none;
   height: 30px;
-  width: 80px;;
-  vertical-align: center;
+  width: 80px;
   text-align: center;
   line-height: 30px;
   border: 1px solid black;
@@ -159,17 +168,22 @@ figure.pick {
   justify-content: flex-start;
 }
 
+img.pickImg {
+  width:60px; 
+  height:60px;
+}
+
 a.picklink {
   color: rgb(51, 51, 51);
   font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
 }
 
-a.picklink:hover{
+a.picklink:hover {
   text-decoration: underline;
 }
 
-footer.additionalinfo{
+footer.additionalinfo {
   display: flex;
   justify-content: center;
 }
