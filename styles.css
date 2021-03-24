@@ -1,23 +1,11 @@
-/*Navigation bar*/
-
-/*Searchfield and button position*/
-
-/*Searchfield size*/
-
-/*Buttons*/
-
-/*Logo*/
-
-/*Subscribe and log in buttons*/
-
-/*Article headline*/
-
-.navbar {
+nav {
   display: flex;
+  justify-content: space-between;
+  width: 98vw;
 }
 
 form.search {
-  float: left;
+   justify-content: flex-start;
 }
 
 input {
@@ -34,21 +22,154 @@ button {
   height: 30px;
 }
 
-.logo {
-  text-align: center;
-  margin-left: 25%;
-}
-
 button.option {
   display: inline;
 }
 
-.options {
-  float: right;
-  margin-left: 30%;
+section.photo {
+  display: flex;
+  flex-direction: column;
+  width: 98vw;
+  align-items: center;
 }
 
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-left: 20%;
+  font-size: 1.95rem;
+  word-wrap: break-word;
+}
+
+figcaption.imgcaption {
+  width: 700px;
+  word-wrap: break-word;
+}
+
+p.article {
+  display: inline;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p.imgctext {
+  color: rgb(102, 102, 102);
+}
+
+p.reporterinfo {
+  color: rgb(136, 136, 136);
+  font-size: 13px;
+}
+
+section.text {
+  display: flex;
+  justify-content: center;
+}
+
+article.passage {
+  width: 50vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articleinfo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-self: flex-start;
+}
+
+a.authlink {
+  color: black;
+  text-decoration-color: rgb(136, 136, 136);
+}
+
+a.authlink:hover {
+  text-decoration: none;
+}
+
+p.datepublished {
+  font-size: 13px;
+}
+
+section.story {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section.scitimes {
+  display: flex;
+}
+
+.stdesc {
+  width: 600px;
+  display: inline;
+  font-size: 18px;
+}
+
+p.content {
+  font-size: 20px;
+}
+
+a.newsletter {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  height: 30px;
+  width: 80px;;
+  vertical-align: center;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+a.newsletter:hover {
+  background-color: black;
+  color: white;
+}
+
+a.contentlink {
+  color: rgb(50, 104, 145);
+  text-decoration: underline;
+}
+
+a.contentlink:hover {
+  text-decoration: none;
+}
+
+section.theory {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+aside.picks {
+  display: flex;
+  flex-direction: column;
+  width: 18vw;
+  justify-self: flex-end;
+  align-content: space-around;
+  justify-content: center;
+}
+
+p.picks {
+  border-bottom: 1px solid rgb(195, 195, 195);
+}
+
+figure.pick {
+  display: flex;
+  justify-content: flex-start;
+}
+
+a.picklink {
+  color: rgb(51, 51, 51);
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
+a.picklink:hover{
+  text-decoration: underline;
+}
+
+footer.additionalinfo{
+  display: flex;
+  justify-content: center;
 }
