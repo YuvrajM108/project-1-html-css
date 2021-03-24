@@ -27,9 +27,9 @@ button.option {
   display: inline;
 }
 
-img.logo{
-  width:200px;
-  height:40px;
+img.logo {
+  width: 200px;
+  height: 40px;
 }
 
 section.photo {
@@ -45,9 +45,9 @@ h1 {
   word-wrap: break-word;
 }
 
-img.articleImg{
-  width:945px; 
-  height:530px;
+img.articleImg {
+  width: 945px;
+  height: 530px;
 }
 
 figcaption.imgcaption {
@@ -181,8 +181,8 @@ figure.pick {
 }
 
 img.pickImg {
-  width:60px; 
-  height:60px;
+  width: 60px;
+  height: 60px;
   margin-right: 5px;
 }
 
@@ -205,7 +205,7 @@ figure.theory {
   width: 70vw;
 }
 
-figcaption.theoryCapt {
+p.theoryCapt {
   align-self: flex-start;
   word-wrap: break-word;
 }
@@ -217,7 +217,7 @@ img.theoryImgs {
 
 section.explanations1 {
   position: absolute;
-  top: 180px;
+  top: 255px;
 }
 
 section.explanations2 {
@@ -225,7 +225,7 @@ section.explanations2 {
   bottom: 15px;
 }
 
-figcaption.explained {
+p.explained {
   font-size: 13px;
   float: left;
   width: 225px;
@@ -238,8 +238,7 @@ section.researchers {
   left: 25px;
 }
 
-figcaption.vidcaption {
-  
+p.vidcaption {
   align-self: flex-start;
   width: 600px;
   word-wrap: break-word;
