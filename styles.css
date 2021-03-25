@@ -98,7 +98,7 @@ figcaption.imgcaption {
   word-wrap: break-word;
 }
 
-p.article {
+.article {
   display: inline;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -149,8 +149,9 @@ a.authlink:hover {
   text-decoration: none;
 }
 
-p.datepublished {
+.datepublished {
   font-size: 13px;
+  display: block;
 }
 
 section.story {
@@ -415,7 +416,7 @@ figcaption.sugImgtext {
   text-align: right;
 }
 
-p.sugTitle {
+.sugTitle {
   font-size: 18px;
 }
 
