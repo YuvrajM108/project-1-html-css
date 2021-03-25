@@ -1,19 +1,65 @@
 nav.head {
+  z-index: 1;
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-between;
   width: 98vw;
   background-color: white;
+  border-bottom: 1px solid rgb(195, 195, 195);
 }
 
-form.search {
-  justify-content: flex-start;
+.controls {
+  display: flex;
+  justify-content: center;
 }
 
-input {
-  height: 26px;
+button.control {
+  margin: 5px 5px 5px 5px;
+  padding: 0;
+  border: none;
+  border-radius: 3px;
+  width: 36px;
+  height: 36px;
+  background-color: white;
 }
 
-button {
+button.control:hover {
+  background-color: rgb(247, 247, 247);
+}
+
+img.menuIcon {
+  width: 16px;
+  height: 16px;
+}
+
+img.searchIcon {
+  width: 28px;
+  height: 28px;;
+}
+
+a.category {
+  position: relative;
+  bottom: 5px;
+  left: 5px;
+  align-self: flex-start;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.category:hover {
+  text-decoration: underline;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+}
+
+button.option {
+  margin: 5px 3px 5px 3px;
+  display: inline;
   border-radius: 3px;
   font-size: 11px;
   font-weight: bold;
@@ -21,10 +67,6 @@ button {
   border-color: rgb(50, 104, 145);
   color: white;
   height: 30px;
-}
-
-button.option {
-  display: inline;
 }
 
 img.logo {
@@ -39,7 +81,8 @@ section.photo {
   align-items: center;
 }
 
-h1 {
+h1.headline {
+  margin-top: 15vh;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.95rem;
   word-wrap: break-word;
@@ -238,6 +281,10 @@ section.researchers {
   left: 25px;
 }
 
+iframe{
+  border: 0px;
+}
+
 p.vidcaption {
   align-self: flex-start;
   width: 600px;
@@ -275,4 +322,123 @@ a.addlink {
 
 a.addlink:hover {
   text-decoration: underline;
+}
+
+section.moreContent {
+  display: flex;
+  width: 90vw;
+  margin: 0 5vw 0 5vw;
+  justify-content: space-between;
+}
+
+section.suggestions {
+  border-top: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+section.sugMenu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-direction: row;
+  width: 850px;
+}
+
+figure.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  border: 2px solid rgb(102, 102, 102);
+  margin: 0px 10px 0px 10px;
+}
+
+img.newsletter {
+  align-self: flex-start;
+  margin: 10px 0px 0px 10px;
+  width: 80px;
+  height: 80px;
+}
+
+button.newsletter {
+  align-self: flex-end;
+  margin: -80px 10px 0px 50px;
+  border-radius: 50%;
+  border: 2px solid black;
+  font-size: 24px;
+  color: black;
+  background-color: white;
+  width: 45px;
+  height: 45px;
+}
+
+button.newsletter:hover {
+  background-color: black;
+  color: white;
+}
+
+figcaption.newsLinfo {
+  display: block;
+  align-self: flex-start;
+  margin: 0px 10px 0px 10px;
+}
+
+p.newsLtype {
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 45px;
+}
+
+p.newsLtext {
+  word-wrap: break-word;
+  float: left;
+}
+
+figure.sugAtcl {
+  align-self: flex-start;
+  width: 220px;
+  margin: 20px 5px 20px 5px;
+}
+
+img.sugImg {
+  width: 240px;
+  height: 150px;
+}
+
+figcaption.sugImgtext {
+  font-size: 12px;
+  text-align: right;
+}
+
+figcaption.sugTitle {
+  font-size: 18px;
+}
+
+a.sugLink {
+  text-decoration: none;
+  color: black
+}
+
+a.sugLink:hover {
+  color: rgb(136, 136, 136)
+}
+
+aside.popular {
+  margin-left: 20px;
+  border-top: 2px solid black;
+}
+
+ul.pplr {
+  list-style-type: none;
+}
+
+li {
+  border-top: 1px solid rgb(195, 195, 195);
+  margin-top: 10px;
+  padding-top: 5px;
 }
