@@ -35,7 +35,7 @@ img.menuIcon {
 
 img.searchIcon {
   width: 28px;
-  height: 28px;;
+  height: 28px;
 }
 
 a.category {
@@ -281,8 +281,8 @@ section.researchers {
   left: 25px;
 }
 
-iframe{
-  border: 0px;
+iframe {
+  border: 0;
 }
 
 p.vidcaption {
@@ -355,19 +355,19 @@ figure.newsletter {
   width: 250px;
   height: 300px;
   border: 2px solid rgb(102, 102, 102);
-  margin: 0px 10px 0px 10px;
+  margin: 0 10px 0 10px;
 }
 
 img.newsletter {
   align-self: flex-start;
-  margin: 10px 0px 0px 10px;
+  margin: 10px 0 0 10px;
   width: 80px;
   height: 80px;
 }
 
 button.newsletter {
   align-self: flex-end;
-  margin: -80px 10px 0px 50px;
+  margin: -80px 10px 0 50px;
   border-radius: 50%;
   border: 2px solid black;
   font-size: 24px;
@@ -385,7 +385,7 @@ button.newsletter:hover {
 figcaption.newsLinfo {
   display: block;
   align-self: flex-start;
-  margin: 0px 10px 0px 10px;
+  margin: 0 10px 0 10px;
 }
 
 p.newsLtype {
@@ -415,17 +415,17 @@ figcaption.sugImgtext {
   text-align: right;
 }
 
-figcaption.sugTitle {
+p.sugTitle {
   font-size: 18px;
 }
 
 a.sugLink {
   text-decoration: none;
-  color: black
+  color: black;
 }
 
 a.sugLink:hover {
-  color: rgb(136, 136, 136)
+  color: rgb(136, 136, 136);
 }
 
 aside.popular {
