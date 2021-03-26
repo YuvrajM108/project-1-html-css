@@ -10,8 +10,6 @@ The following are some screenshots of the project being tested:
 
 ![image](https://user-images.githubusercontent.com/70488620/112661998-8a4e6c80-8e2d-11eb-8623-b18ce04263a9.png)
 
-![image](https://user-images.githubusercontent.com/70488620/112662055-9cc8a600-8e2d-11eb-9120-b53f9e7ba1b9.png)
-
 
 # Built with:
 - HTML
