@@ -411,7 +411,7 @@ img.sugImg {
   height: 150px;
 }
 
-figcaption.sugImgtext {
+.sugImgtext {
   font-size: 12px;
   text-align: right;
 }
@@ -438,8 +438,40 @@ ul.pplr {
   list-style-type: none;
 }
 
-li {
+li.popular {
   border-top: 1px solid rgb(195, 195, 195);
   margin-top: 10px;
   padding-top: 5px;
+}
+
+section.mainMenu {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  align-items: center;
+  border-top: 4px double rgb(195, 195, 195);
+}
+
+a.homeMenu {
+  align-self: flex-start;
+  margin-left: 4.5vw;
+}
+
+section.linkLists {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+li.menu {
+  list-style-type: none;
+}
+
+a.menuLink {
+  color: black;
+  text-decoration: none;
+}
+
+a.menuLink:hover {
+  text-decoration: underline;
 }
