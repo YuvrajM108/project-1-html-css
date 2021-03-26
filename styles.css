@@ -240,7 +240,7 @@ a.picklink:hover {
   text-decoration: underline;
 }
 
-figure.theory {
+section.theory {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -400,7 +400,7 @@ p.newsLtext {
   float: left;
 }
 
-figure.sugAtcl {
+section.sugAtcl {
   align-self: flex-start;
   width: 220px;
   margin: 20px 5px 20px 5px;
@@ -414,6 +414,7 @@ img.sugImg {
 .sugImgtext {
   font-size: 12px;
   text-align: right;
+  display: block;
 }
 
 .sugTitle {
@@ -445,6 +446,7 @@ li.popular {
 }
 
 section.mainMenu {
+  margin-left: 5vw;
   display: flex;
   flex-direction: column;
   width: 90vw;
@@ -454,13 +456,16 @@ section.mainMenu {
 
 a.homeMenu {
   align-self: flex-start;
-  margin-left: 4.5vw;
 }
 
 section.linkLists {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+}
+
+ul.linkList {
+  width: 13vw;
 }
 
 li.menu {
@@ -474,4 +479,16 @@ a.menuLink {
 
 a.menuLink:hover {
   text-decoration: underline;
+}
+
+section.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-left: 1px solid rgb(195, 195, 195);
+}
+
+ul.subList1 {
+  width: 13vw;
+  border-bottom: 1px solid rgb(195, 195, 195);
 }
