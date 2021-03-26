@@ -199,12 +199,6 @@ a.contentlink:hover {
   text-decoration: none;
 }
 
-section.theory {
-  display: flex;
-  flex-direction: column;
-  width: 80vw;
-}
-
 aside.picks {
   display: flex;
   flex-direction: column;
