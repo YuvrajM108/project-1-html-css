@@ -1,18 +1,65 @@
-nav {
+nav.head {
+  z-index: 1;
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-between;
   width: 98vw;
+  background-color: white;
+  border-bottom: 1px solid rgb(195, 195, 195);
 }
 
-form.search {
-   justify-content: flex-start;
+.controls {
+  display: flex;
+  justify-content: center;
 }
 
-input {
-  height: 26px;
+button.control {
+  margin: 5px 5px 5px 5px;
+  padding: 0;
+  border: none;
+  border-radius: 3px;
+  width: 36px;
+  height: 36px;
+  background-color: white;
 }
 
-button {
+button.control:hover {
+  background-color: rgb(247, 247, 247);
+}
+
+img.menuIcon {
+  width: 16px;
+  height: 16px;
+}
+
+img.searchIcon {
+  width: 28px;
+  height: 28px;
+}
+
+a.category {
+  position: relative;
+  bottom: 5px;
+  left: 5px;
+  align-self: flex-start;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.category:hover {
+  text-decoration: underline;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+}
+
+button.option {
+  margin: 5px 3px 5px 3px;
+  display: inline;
   border-radius: 3px;
   font-size: 11px;
   font-weight: bold;
@@ -22,8 +69,9 @@ button {
   height: 30px;
 }
 
-button.option {
-  display: inline;
+img.logo {
+  width: 200px;
+  height: 40px;
 }
 
 section.photo {
@@ -33,10 +81,16 @@ section.photo {
   align-items: center;
 }
 
-h1 {
+h1.headline {
+  margin-top: 15vh;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.95rem;
   word-wrap: break-word;
+}
+
+img.articleImg {
+  width: 945px;
+  height: 530px;
 }
 
 figcaption.imgcaption {
@@ -44,12 +98,12 @@ figcaption.imgcaption {
   word-wrap: break-word;
 }
 
-p.article {
+.article {
   display: inline;
   font-family: 'Times New Roman', Times, serif;
 }
 
-p.imgctext {
+.imgctext {
   color: rgb(102, 102, 102);
 }
 
@@ -58,14 +112,24 @@ p.reporterinfo {
   font-size: 13px;
 }
 
-section.text {
+section.text1 {
   display: flex;
-  justify-content: center;
+  position: relative;
+  left: 20vw;
+  width: 75vw;
+  justify-content: space-between;
+}
+
+section.text2 {
+  display: flex;
+  position: relative;
+  left: 20vw;
+  width: 75vw;
+  justify-content: flex-start;
 }
 
 article.passage {
   width: 50vw;
-  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,8 +149,9 @@ a.authlink:hover {
   text-decoration: none;
 }
 
-p.datepublished {
+.datepublished {
   font-size: 13px;
+  display: block;
 }
 
 section.story {
@@ -113,8 +178,7 @@ a.newsletter {
   color: black;
   text-decoration: none;
   height: 30px;
-  width: 80px;;
-  vertical-align: center;
+  width: 80px;
   text-align: center;
   line-height: 30px;
   border: 1px solid black;
@@ -135,12 +199,6 @@ a.contentlink:hover {
   text-decoration: none;
 }
 
-section.theory {
-  display: flex;
-  flex-direction: column;
-  width: 80vw;
-}
-
 aside.picks {
   display: flex;
   flex-direction: column;
@@ -157,6 +215,13 @@ p.picks {
 figure.pick {
   display: flex;
   justify-content: flex-start;
+  width: 15vw;
+}
+
+img.pickImg {
+  width: 60px;
+  height: 60px;
+  margin-right: 5px;
 }
 
 a.picklink {
@@ -165,11 +230,259 @@ a.picklink {
   text-decoration: none;
 }
 
-a.picklink:hover{
+a.picklink:hover {
   text-decoration: underline;
 }
 
-footer.additionalinfo{
+section.theory {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 10vw;
+  width: 70vw;
+}
+
+p.theoryCapt {
+  align-self: flex-start;
+  word-wrap: break-word;
+}
+
+img.theoryImgs {
+  width: 945px;
+  height: 576px;
+}
+
+section.explanations1 {
+  position: absolute;
+  top: 255px;
+}
+
+section.explanations2 {
+  position: absolute;
+  bottom: 15px;
+}
+
+p.explained {
+  font-size: 13px;
+  float: left;
+  width: 225px;
+  word-wrap: break-word;
+}
+
+section.researchers {
+  position: absolute;
+  bottom: -15px;
+  left: 25px;
+}
+
+iframe {
+  border: 0;
+}
+
+p.vidcaption {
+  align-self: flex-start;
+  width: 600px;
+  word-wrap: break-word;
+}
+
+img.telescopeImg {
+  width: 600px;
+  height: 400px;
+}
+
+figcaption.telescopeCapt {
+  width: 600px;
+  word-wrap: break-word;
+}
+
+.additionalinfo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav.foot {
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+a.addlink {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+}
+
+a.addlink:hover {
+  text-decoration: underline;
+}
+
+section.moreContent {
+  display: flex;
+  width: 90vw;
+  margin: 0 5vw 0 5vw;
+  justify-content: space-between;
+}
+
+section.suggestions {
+  border-top: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+section.sugMenu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-direction: row;
+  width: 850px;
+}
+
+figure.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  border: 2px solid rgb(102, 102, 102);
+  margin: 0 10px 0 10px;
+}
+
+img.newsletter {
+  align-self: flex-start;
+  margin: 10px 0 0 10px;
+  width: 80px;
+  height: 80px;
+}
+
+button.newsletter {
+  align-self: flex-end;
+  margin: -80px 10px 0 50px;
+  border-radius: 50%;
+  border: 2px solid black;
+  font-size: 24px;
+  color: black;
+  background-color: white;
+  width: 45px;
+  height: 45px;
+}
+
+button.newsletter:hover {
+  background-color: black;
+  color: white;
+}
+
+figcaption.newsLinfo {
+  display: block;
+  align-self: flex-start;
+  margin: 0 10px 0 10px;
+}
+
+p.newsLtype {
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 45px;
+}
+
+p.newsLtext {
+  word-wrap: break-word;
+  float: left;
+}
+
+section.sugAtcl {
+  align-self: flex-start;
+  width: 220px;
+  margin: 20px 5px 20px 5px;
+}
+
+img.sugImg {
+  width: 240px;
+  height: 150px;
+}
+
+.sugImgtext {
+  font-size: 12px;
+  text-align: right;
+  display: block;
+}
+
+.sugTitle {
+  font-size: 18px;
+}
+
+a.sugLink {
+  text-decoration: none;
+  color: black;
+}
+
+a.sugLink:hover {
+  color: rgb(136, 136, 136);
+}
+
+aside.popular {
+  margin-left: 20px;
+  border-top: 2px solid black;
+}
+
+ul.pplr {
+  list-style-type: none;
+}
+
+li.popular {
+  border-top: 1px solid rgb(195, 195, 195);
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+section.mainMenu {
+  margin-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  align-items: center;
+  border-top: 4px double rgb(195, 195, 195);
+}
+
+a.homeMenu {
+  align-self: flex-start;
+}
+
+section.linkLists {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+ul.linkList {
+  width: 13vw;
+}
+
+li.menu {
+  list-style-type: none;
+}
+
+a.menuLink {
+  color: black;
+  text-decoration: none;
+}
+
+a.menuLink:hover {
+  text-decoration: underline;
+}
+
+section.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-left: 1px solid rgb(195, 195, 195);
+}
+
+ul.subList1 {
+  width: 13vw;
+  border-bottom: 1px solid rgb(195, 195, 195);
 }
