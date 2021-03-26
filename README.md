@@ -3,10 +3,12 @@ In this project I have practically applied what I have learnt about flexbox, flo
 
 The following are some screenshots of the project being tested:
 ![image](https://user-images.githubusercontent.com/70488620/112661571-0bf1ca80-8e2d-11eb-8783-99f4236772a0.png)
+
 ![image](https://user-images.githubusercontent.com/70488620/112661829-55421a00-8e2d-11eb-9495-9c71d4ad227d.png)
+
 ![image](https://user-images.githubusercontent.com/70488620/112661913-70ad2500-8e2d-11eb-8add-110be97bd29c.png)
+
 ![image](https://user-images.githubusercontent.com/70488620/112661998-8a4e6c80-8e2d-11eb-8623-b18ce04263a9.png)
-![image](https://user-images.githubusercontent.com/70488620/112662055-9cc8a600-8e2d-11eb-9120-b53f9e7ba1b9.png)
 
 
 # Built with:
