@@ -486,3 +486,65 @@ ul.subList1 {
   width: 13vw;
   border-bottom: 1px solid rgb(195, 195, 195);
 }
+
+section.commentForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  width: 60vw;
+  margin-left: 20vw;
+  margin-bottom: 5vh;
+}
+
+h1.formTitle {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label.formfld {
+  font-weight: bold;
+}
+
+.req {
+  color: red;
+  display: inline;
+}
+
+input.personinfo {
+  width: 200px;
+  height: 25px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea.commentBox {
+  font-size: 18px;
+  width: 500px;
+  height: 250px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button.addComment {
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(86, 123, 149);
+  border-color: rgb(50, 104, 145);
+  color: white;
+  height: 50px;
+}
+
+section.commentButton {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+a.commentBox {
+  color: white;
+  text-decoration: none;
+}
