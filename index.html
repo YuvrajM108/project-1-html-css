@@ -151,7 +151,9 @@
 </section>
 <section class="commentButton">
     <h1 class="formTitle">DO YOU LIKE THIS ARTICLE?</h1>
-    <button class="addComment"><a href="#commentBox" class="commentBox">ADD A COMMENT TO SHARE YOUR THOUGHTS</a></button>
+    <form action="#commentBox">
+        <button type="submit" class="addComment">ADD A COMMENT TO SHARE YOUR THOUGHTS</button>
+    </form>
 </section>
 <section class="text2">
     <article class="passage">
@@ -218,7 +220,9 @@
         </figure>
         <section class="commentButton">
             <h1 class="formTitle">DO YOU LIKE THIS ARTICLE?</h1>
-            <button class="addComment"><a href="#commentBox" class="commentBox">ADD A COMMENT TO SHARE YOUR THOUGHTS</a></button>
+            <form action="#commentBox">
+                <button type="submit" class="addComment">ADD A COMMENT TO SHARE YOUR THOUGHTS</button>
+            </form>
         </section>
     <section class="story">
         <p class="content">In 2002, he was part of a team that discovered that the microwave radiation was polarized, meaning the 
@@ -270,19 +274,19 @@
     <h1 class="formTitle"><u>LEAVE A COMMENT:</u></h1>
     <form action="#" method="post">
         <label class="formfld" for="name"><span class="articleinfo">Name</span><span class="req">*</span></label><br>
-        <input type="text" name="name" placeholder="John Doe" class="personinfo" maxlength="20" required><br><br>
+        <input type="text" id="name" placeholder="John Doe" class="personinfo" maxlength="20" required><br><br>
         <label class="formfld" for="email"><span class="articleinfo">Email Address</span><span class="req">*</span></label><br>
-        <input type="email" name="email" placeholder="john.doe@example.com" class="personinfo" maxlength="20" required><br><br>
+        <input type="email" id="email" placeholder="john.doe@example.com" class="personinfo" maxlength="20" required><br><br>
         <label class="formfld" for="comment"><span class="articleinfo">Email Address</span><span class="req">*</span></label><br>
-        <textarea name="comment" placeholder="Type your comment here..." class="commentBox" maxlength="250" required></textarea><br><br>
-        <label class="formfld" for="opinion"><span class="articleinfo">What is your overall opinion about this article?</span><span class="req">*</span></label><br>
-        <input type="radio" name="opinion" id="positive" value="postive">
+        <textarea id="comment" placeholder="Type your comment here..." class="commentBox" maxlength="250" required></textarea><br><br>
+        <label class="formfld"><span class="articleinfo">What is your overall opinion about this article?</span><span class="req">*</span></label><br>
+        <input type="radio" id="positive" name="opinion" value="postive">
         <label for="positive" class="articleinfo">Postive</label><br>
-        <input type="radio" name="opinion" id="negative" value="negative">
+        <input type="radio" id="negative" name="opinion" value="negative">
         <label for="negative" class="articleinfo">Negative</label><br>
-        <input type="radio" name="opinion" id="neutral" value="neutral">
+        <input type="radio" id="neutral" name="opinion" value="neutral">
         <label for="neutral" class="articleinfo">Neutral</label><br><br>
-        <input type="checkbox" name="subscribe" value="subscribe">
+        <input type="checkbox" id="subscribe" value="subscribe">
         <label for="subscribe" class="articleinfo">I want to subscribe to the newsletter</label><br><br>
         <button type="submit" class="addComment">SEND</button><br><br>
     </form>
