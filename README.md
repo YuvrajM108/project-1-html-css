@@ -1,5 +1,5 @@
 # project-1-html-css
-In this project I have practically applied what I have learnt about flexbox, floats and positioning by cloning a New York Times article using a variety of techniques. This clone page is divided into several sections which each have uniques styles mimmicking the appearance of the original article. An effort was also made to use semantic HTML elements as much as possible.
+In this project I have practically applied what I have learnt about flexbox, floats and positioning by cloning a New York Times article using a variety of techniques. This clone page is divided into several sections which each have unique styles mimmicking the appearance of the original article. An effort was also made to use semantic HTML elements as much as possible.
 
 The following are some screenshots of the project being tested:
 ![image](https://user-images.githubusercontent.com/70488620/112661571-0bf1ca80-8e2d-11eb-8783-99f4236772a0.png)
